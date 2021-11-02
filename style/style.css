@@ -194,16 +194,13 @@ nav ul li a:hover::after {
 .skill,
 .education,
 .experience,
-.projects
-.opensource
-.contactme {
+.projects .opensource .contactme {
   padding: 20px;
   margin-top: 30px;
   display: flex;
   flex-wrap: wrap;
   flex-direction: column;
 }
-
 
 .education .edu {
   display: flex;
@@ -307,7 +304,7 @@ nav ul li a:hover::after {
   height: 207px;
   width: 100%;
   padding: 10px;
-  background: url("../assets/img/hotel.png");
+  background: url("../assets/img/monival.jpg");
   background-size: cover !important;
   background-position: center !important;
   background-repeat: no-repeat !important;
@@ -318,7 +315,7 @@ nav ul li a:hover::after {
   height: 207px;
   width: 100%;
   padding: 10px;
-  background: url("../assets/img/expensetracker.png");
+  background: url("../assets/img/21cskils.jpg");
   background-size: cover !important;
   background-position: center !important;
   background-repeat: no-repeat !important;
@@ -480,8 +477,6 @@ footer > span > a {
     display: flex;
     justify-content: center;
   }
-
-
 
   .projects .project-section .content {
     margin: 0;
