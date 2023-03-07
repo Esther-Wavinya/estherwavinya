@@ -11,6 +11,7 @@ function toggleTheme() {
     }
 }
 
+
 const burger = document.getElementById('burger');
 const ul = document.querySelector('nav ul');
 const homeAnchor = document.getElementById('home-anchor');
@@ -20,6 +21,7 @@ const expAnchor = document.getElementById('exp-anchor');
 const projAnchor = document.getElementById('proj-anchor');
 const openAnchor = document.getElementById('open-anchor');
 const contaAnchor = document.getElementById('conta-anchor');
+
 
 burger.addEventListener('click', () => {
     ul.classList.toggle('show');
