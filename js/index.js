@@ -19,7 +19,7 @@ const skillAnchor = document.getElementById('skill-anchor');
 const eduAnchor = document.getElementById('edu-anchor');
 const expAnchor = document.getElementById('exp-anchor');
 const projAnchor = document.getElementById('proj-anchor');
-const openAnchor = document.getElementById('open-anchor');
+const techAnchor = document.getElementById('tech-anchor');
 const contaAnchor = document.getElementById('conta-anchor');
 
 
@@ -42,7 +42,7 @@ expAnchor.addEventListener('click', () => {
 projAnchor.addEventListener('click', () => {
     ul.classList.toggle('show');
 })
-openAnchor.addEventListener('click', () => {
+techAnchor.addEventListener('click', () => {
     ul.classList.toggle('show');
 })
 contaAnchor.addEventListener('click', () => {

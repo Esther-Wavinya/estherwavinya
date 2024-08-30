@@ -170,9 +170,9 @@ nav ul li a:hover::after {
 .profile .bio-text > h2,
 .skill > h2,
 .projects > h2,
-.communities > h2,
 .experience > h2,
-.education > h2 {
+.education > h2,
+.technical > h2 {
   margin-bottom: 0;
   margin-top: 0;
 }
@@ -181,7 +181,8 @@ nav ul li a:hover::after {
 .projects > span,
 .communities > span,
 .experience > span,
-.education > span {
+.education > span,
+.technical > span {
   padding: 0;
   margin: 0;
   width: 70px;
@@ -194,7 +195,8 @@ nav ul li a:hover::after {
 .skill,
 .education,
 .experience,
-.projects .opensource .contactme {
+.projects,
+.technical                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                  {
   padding: 20px;
   margin-top: 30px;
   display: flex;
@@ -387,6 +389,7 @@ nav ul li a:hover::after {
   text-decoration: none;
 }
 
+
 .skill .stack-imgs {
   padding: 5px;
   display: flex;
@@ -401,6 +404,113 @@ nav ul li a:hover::after {
   height: 100px;
   margin: 10px;
 }
+
+
+.technical {
+  padding: 20px;
+  margin-top: 30px;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+
+.technical .technical-section {
+  padding: 5px;
+  display: flex;
+  flex-wrap: wrap;
+  align-self: center;
+  justify-content: space-between;
+}
+.technical .technical-section .content {
+  width: 400px;
+  margin: 10px;
+}
+.technical .background {
+  background-size: cover !important;
+  background-position: center !important;
+  background-repeat: no-repeat !important;
+  cursor: pointer;
+}
+
+.technical .technical-section .content .top {
+  height: 207px;
+  width: 100%;
+  padding: 10px;
+  background: url("../assets/img/monival.jpg");
+  background-size: cover !important;
+  background-position: center !important;
+  background-repeat: no-repeat !important;
+  cursor: pointer;
+  border-radius: 5px 5px 0 0;
+}
+
+.technical .technical-section .content .seventh {
+  height: 207px;
+  width: 100%;
+  padding: 10px;
+  background: url("../assets/img/21cskils.jpg");
+  background-size: cover !important;
+  background-position: center !important;
+  background-repeat: no-repeat !important;
+  cursor: pointer;
+  border-radius: 5px 5px 0 0;
+}
+
+.technical .technical-section .content .sixth {
+  height: 207px;
+  width: 100%;
+  padding: 10px;
+  background: url("../assets/img/hotel.png");
+  background-size: cover !important;
+  background-position: center !important;
+  background-repeat: no-repeat !important;
+  cursor: pointer;
+  border-radius: 5px 5px 0 0;
+}
+
+.technical .technical-section .content .eighth {
+  height: 207px;
+  width: 100%;
+  padding: 10px;
+  background: url("../assets/img/monival.jpg");
+  background-size: cover !important;
+  background-position: center !important;
+  background-repeat: no-repeat !important;
+  cursor: pointer;
+  border-radius: 5px 5px 0 0;
+}
+
+.technical .technical-section .content .footer {
+  padding: 16px 10px;
+  display: flex;
+  flex-direction: column;
+  /* background: #fff; */
+  box-shadow: 0px 0px 1px rgba(0, 0, 0, 0.25);
+  border-radius: 0 0 5px 5px;
+}
+.technical .technical-section .content .footer > h3 {
+  margin: 0;
+}
+
+.technical .technical-section .content .footer > p {
+  font-size: 12px;
+}
+
+.technical .technical-section .content .footer > a {
+  align-self: flex-end;
+  cursor: pointer;
+  text-decoration: none;
+  text-align: center;
+  color: white;
+  font-size: 12px;
+  width: 40%;
+  padding: 10px;
+  box-sizing: border-box;
+  border-radius: 5px;
+  background-color: #2c405e;
+  text-decoration: none;
+}
+
 
 footer {
   display: flex;
@@ -488,7 +598,21 @@ footer > span > a {
 
   .projects .project-section .content {
     width: 100%;
+  } 
+
+  .technical .technical-section .content {
+    margin: 0;
   }
+
+  .technical .technical-section {
+    flex-direction: column;
+  }
+
+  .technical .technical-section .content {
+    width: 100%;
+  }
+
+
   .education .edu {
     align-items: center;
     justify-self: center;
